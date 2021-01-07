@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import FadeIn from 'react-fade-in';
 
 class Intro extends Component {
-    render() {
+     render() {
         return (
             <div>
                 <FadeIn>
