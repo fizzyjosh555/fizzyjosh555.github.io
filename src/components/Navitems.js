@@ -5,7 +5,7 @@ class Navitems extends Component {
     render() {
         return (
             <li id={this.props.item}>
-                <Link to={this.props.tolink} 
+                <Link to={this.props.tolink} style={{ textDecoration: 'none' }}
                     onClick={this.props.activec.bind(this,this.props.item)}>
                     {this.props.item}
                 </Link>

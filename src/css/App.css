@@ -21,12 +21,7 @@ body {
   min-height: 100vh;
 }
 
-.profilepic{
-  border-radius: 50%;
-  height: 200px;
-  width: 135px;
-}
-
+/* Introduction elements */
 .introbg {
   position: absolute;
   width: auto;
@@ -35,12 +30,36 @@ body {
 
 .intro1 {
   position: absolute;
+  display: flex;
   top: 8px;
 }
 
 .intro2 {
   position: absolute;
+  display: flex;
   top: 60px;
+}
+
+/* Social elements */
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+}
+
+.fbLogo {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.liLogo {
+  max-width: 25.5px;
+  max-height: 25.5px;
+}
+
+.ghLogo {
+  max-width: 25px;
+  max-height: 25px;
 }
 
 /* .condiv class is for the right side content container*/
@@ -49,9 +68,21 @@ body {
 }
 
 /* Navbar properties */
+.profilepic{
+  border-radius: 50%;
+  height: 200px;
+  width: 135px;
+}
+
+.profilename {
+  font-family: 'Josefin Slab', serif;
+  padding-top: 10px;
+  color: rgb(122, 108, 108);
+}
+
 nav {
   padding:85px 60px 0px 60px ;
-  background: rgb(224, 215, 215);
+  background: rgb(238, 232, 232);
 }
 
 nav ul {
@@ -66,12 +97,12 @@ nav ul li {
   margin: 25px 0;
 }
 
-nav ul li:hover{
-  background-color: yellow;
+Link {
+  text-decoration: none;
 }
 
-nav ul p{
-  
+nav ul li:hover{
+  font-weight: bolder;
 }
 
 .active {

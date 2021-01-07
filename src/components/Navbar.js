@@ -1,6 +1,7 @@
 import profpic from '../images/circlepic.jpg';
 import React, { Component } from 'react';
 import Navitems from './Navitems.js';
+import Social from './Social.js';
 
 class Navbar extends Component {
     constructor(props){
@@ -24,13 +25,14 @@ class Navbar extends Component {
             <nav>
                 <ul>
                     <img className="profilepic" src={profpic} alt="Avatar"></img>
+                    <h2 className="profilename">JOSHUA YUN</h2>
                     <Navitems item="Introduction" tolink="/" activec={this.activeitem}></Navitems>
                     <Navitems item="About" tolink="/about" activec={this.activeitem}></Navitems>
                     <Navitems item="Skills & Education" tolink="/skillsEdu" activec={this.activeitem}></Navitems>
                     <Navitems item="Experience" tolink="/experience" activec={this.activeitem}></Navitems>
                     <Navitems item="Projects" tolink="/projects" activec={this.activeitem}></Navitems>
                     <Navitems item="Contact" tolink="/contact" activec={this.activeitem}></Navitems>
-                    <p className="icons">icons</p>
+                    <Social></Social>
                 </ul>
             </nav>
         )
