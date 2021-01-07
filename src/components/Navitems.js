@@ -5,7 +5,7 @@ class Navitems extends Component {
     render() {
         return (
             <li id={this.props.item}>
-                <Link to={this.props.tolink} style={{ textDecoration: 'none' }}
+                <Link className="hvr-underline-from-center" to={this.props.tolink} style={{ textDecoration: 'none',   color:'rgb(53, 50, 50)'}}
                     onClick={this.props.activec.bind(this,this.props.item)}>
                     {this.props.item}
                 </Link>
