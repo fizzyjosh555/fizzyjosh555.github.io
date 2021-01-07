@@ -1,0 +1,79 @@
+:root{
+  /* --sidebar-flex:1.5;
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --fontsize-nav:1.6rem;
+  --typing-font:3rem; */
+}
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway';
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.profilepic{
+  border-radius: 50%;
+  height: 200px;
+  width: 135px;
+}
+
+.introbg {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.intro1 {
+  position: absolute;
+  top: 8px;
+}
+
+.intro2 {
+  position: absolute;
+  top: 60px;
+}
+
+/* .condiv class is for the right side content container*/
+.condiv {
+  background-color: #f4f5f9d0;
+}
+
+/* Navbar properties */
+nav {
+  padding:85px 60px 0px 60px ;
+  background: rgb(224, 215, 215);
+}
+
+nav ul {
+  font-size: 5;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul li {
+  font-family: 'Josefin Slab', serif;
+  margin: 25px 0;
+}
+
+nav ul li:hover{
+  background-color: yellow;
+}
+
+nav ul p{
+  
+}
+
+.active {
+  font-weight: bolder;
+}
