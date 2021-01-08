@@ -24,6 +24,7 @@ class Navbar extends Component {
         return (
             <nav>
                 <ul>
+                    <Social></Social>
                     <img className="profilepic" src={profpic} alt="Avatar"></img>
                     <h2 className="profilename">JOSHUA YUN</h2>
                     <Navitems item="Introduction" tolink="/" activec={this.activeitem}></Navitems>
@@ -32,7 +33,6 @@ class Navbar extends Component {
                     <Navitems item="Experience" tolink="/experience" activec={this.activeitem}></Navitems>
                     <Navitems item="Projects" tolink="/projects" activec={this.activeitem}></Navitems>
                     <Navitems item="Contact" tolink="/contact" activec={this.activeitem}></Navitems>
-                    <Social></Social>
                 </ul>
             </nav>
         )
