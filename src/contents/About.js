@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return (
             <div className="container">
-                <div className="aboutBlock" style={{ paddingTop: '7%'}}>
+                <div className="aboutBlock" >
                     <FadeIn transitionDuration="1000">
                     <h1 className="about">About Me</h1>
                     <br></br><br></br>
@@ -13,10 +13,9 @@ class About extends Component {
                     </FadeIn>
                     <br></br>
                     <FadeIn delay="800" transitionDuration="1200">
-                        <div>
+                        <div >
                             <h1><strong>I'm a college senior majoring in computer science.</strong></h1>
-                            <br></br>
-                            <h4 style={{ paddingTop: '10px' }}>I'm currently looking for internships involving <u>software and/or full stack development.</u></h4>
+                            <h2 style={{ paddingTop: '10px' }}>I'm currently looking for internships involving <u>software and/or full stack development.</u></h2>
                             <h4 style={{ paddingTop: '10px' }}>I'm always open to new opportunities, so feel free to still contact me for unrelated roles (or if you also just want to chat).</h4>
                             <br></br><br></br>
                             <p style={{ lineHeight: '1.7'}}>I started programming in high school, but I started taking it seriously during my second year of college. 

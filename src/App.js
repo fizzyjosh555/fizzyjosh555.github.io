@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.js';
 import Intro from './contents/Intro';
 import About from './contents/About';
+import SkillsEdu from './contents/SkillsEdu';
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
         </Route>
         <Route path="/about">
           <About></About>
+        </Route>
+        <Route path="/skillsedu">
+          <SkillsEdu></SkillsEdu>
         </Route>
       </div>
     </Router>
