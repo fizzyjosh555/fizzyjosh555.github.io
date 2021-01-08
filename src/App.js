@@ -6,6 +6,7 @@ import Navbar from './components/Navbar.js';
 import Intro from './contents/Intro';
 import About from './contents/About';
 import SkillsEdu from './contents/SkillsEdu';
+import Experience from './contents/Experience';
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
         </Route>
         <Route path="/skillsedu">
           <SkillsEdu></SkillsEdu>
+        </Route>
+        <Route path="/experience">
+          <Experience></Experience>
         </Route>
       </div>
     </Router>

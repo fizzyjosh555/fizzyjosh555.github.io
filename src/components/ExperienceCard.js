@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-class Widecard extends Component {
+class ExpCard extends Component {
     render() {
         return (
-            <div class="widecard">
+            <div class="expcard">
                 <div style={{ lineHeight: '3vh' }} class="compdet">
                     <h2  style={{ lineHeight: '4.5vh' }} >{this.props.title}</h2>
                     <h4 style={{ paddingTop: '3px' }} class="secondtext">{this.props.where}</h4>
@@ -14,4 +14,4 @@ class Widecard extends Component {
     }
 }
 
-export default Widecard;
+export default ExpCard;
