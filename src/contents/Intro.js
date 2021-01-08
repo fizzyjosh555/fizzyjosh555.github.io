@@ -6,7 +6,7 @@ import ImageFadeIn from 'react-image-fade-in';
 class Intro extends Component {
      render() {
         return (
-            <div className="container intro">
+            <div className="container">
                 <ImageFadeIn className="introimg" opacityTransition={1.2} src={introimg}></ImageFadeIn>
                 <div style={{ textAlign: 'center', paddingTop: '50px' }}className="textContainer">
                     <FadeIn delay="800" transitionDuration="1200">
