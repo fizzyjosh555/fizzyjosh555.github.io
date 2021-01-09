@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return (
             <div className="container">
-                <div className="aboutBlock" >
+                <div className="aboutBlock" style={{ maxWidth: '1270px' }}>
                     <FadeIn transitionDuration="1000">
                     <h1 className="about">About Me</h1>
                     <br></br><br></br>

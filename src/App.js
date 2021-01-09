@@ -8,7 +8,6 @@ import About from './contents/About';
 import SkillsEdu from './contents/SkillsEdu';
 import Experience from './contents/Experience';
 import Projects from './contents/Projects';
-import Contact from './contents/Contact';
 
 const App = () => {
   return (
@@ -29,9 +28,6 @@ const App = () => {
         </Route>
         <Route path="/projects">
           <Projects></Projects>
-        </Route>
-        <Route path="/contact">
-          <Contact></Contact>
         </Route>
       </div>
     </Router>

@@ -6,6 +6,7 @@ import ProjectCard from '../components/ProjectCard.js';
 import flixImg from '../images/nclone.PNG';
 import stockImg from '../images/spredictor.PNG';
 import rammerImg from '../images/srammer.PNG';
+import moreImg from '../images/more.png';
 
 class Projects extends Component {
     render() {
@@ -35,6 +36,7 @@ class Projects extends Component {
                         thirdPoint="Implemented a finite-state machine (10 different states) for various enemy behaviors"
                     ></ProjectCard>
                 </div>
+                <FadeIn delay="1700" transitionDuration="900"><a href="/projects" rel="noopener noreferrer"><img src={moreImg} alt="More"></img></a></FadeIn>
             </div>
         )
     }
