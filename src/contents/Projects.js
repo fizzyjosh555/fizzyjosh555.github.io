@@ -13,7 +13,7 @@ class Projects extends Component {
         return (
             <div className="container">
                 <FadeIn transitionDuration="1000"><h1>Projects</h1></FadeIn>
-                <div className="projectContainer" style={{ paddingTop: "2vh" }}>
+                <div className="projectContainer" style={{ paddingTop: "2vh", display: 'flex', minWidth: '700px', flexDirection: 'column' }}>
                     <ProjectCard 
                         tolink="https://github.com/fizzyjosh555/yourflix" source={flixImg} 
                         name="Netflix Clone (Currently Developing)" tech="JavaScript, HTML, CSS, React, Express, Node.js, AWS EC2, MongoDB"
@@ -35,8 +35,10 @@ class Projects extends Component {
                         secondPoint="Utilizes Unity AI’s NavMesh class for accurate pathfinding from enemies"
                         thirdPoint="Implemented a finite-state machine (10 different states) for various enemy behaviors"
                     ></ProjectCard>
+                    <div style={{ margin: '0 auto' }}>
+                    <FadeIn delay="1700" transitionDuration="900"><a className="hvr-icon-shrink" href="https://github.com/fizzyjosh555" rel="noopener noreferrer" target="_blank"><img style={{ paddingTop: '40px', paddingBottom: '50px', minWidth: '50px', width: '5vw' }} src={moreImg} alt="More"></img></a></FadeIn>
+                    </div>
                 </div>
-                <FadeIn delay="1700" transitionDuration="900"><a href="/projects" rel="noopener noreferrer"><img src={moreImg} alt="More"></img></a></FadeIn>
             </div>
         )
     }

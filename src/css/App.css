@@ -55,6 +55,17 @@ nav {
   background: rgb(238, 232, 232);
 }
 
+.introimg {
+  width: 96%;
+  max-height: 1000px;
+  max-width: 1000px;
+}
+
+.imageBox {
+  min-width: 300px;
+  width: 20vw;
+}
+
 @media screen and (min-width: 900px) {
   nav ul {
     width: 100%;
@@ -80,17 +91,6 @@ nav {
   nav ul li {
     font-size:calc(4px + 1vw);
     margin: 25px 0;
-  }
-
-  .introimg {
-    width: 96%;
-    max-height: 1000px;
-    max-width: 1000px;
-  }
-
-  .imageBox {
-    min-width: 300px;
-    width: 20vw;
   }
 }
 
@@ -120,17 +120,6 @@ nav {
   nav ul li {
     font-size:calc(5px + 1vw);
     margin: 25px 0;
-  }
-
-  .introimg {
-    width: 96%;
-    max-height: 1000px;
-    max-width: 1000px;
-  }
-
-  .imageBox {
-    min-width: 300px;
-    width: 20vw;
   }
 }
 
