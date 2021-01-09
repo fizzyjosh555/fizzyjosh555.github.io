@@ -13,23 +13,21 @@
 /* Container */
 .container {
   width: 100vw;
-  margin: 0 auto;
   padding-top: 3.5%;
   padding-left: 3%;
   padding-right: 3%;
   background-color: #ffffff;
 }
 
+.projectCard{
+  display: flex;
+  padding-bottom: 3vh;
+}
+
 /* SkillsEdu Cards */
 .widecard, .expcard {
-  border:5px solid #ffffff00;
   display: flex;
   margin:30px 0px 30px 0px;
-}
-.widecard:hover, .expcard:hover {
-  color: #1b1d20;
-  background-color: #ffffff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /* Icon SVGs for SkillsEdu */
@@ -45,11 +43,6 @@
 }
 
 /* Introduction elements */
-.introimg {
-  width: 96%;
-  max-height: 1000px;
-  max-width: 1000px;
-}
 
 .introText {
   font-size: 3vw;
@@ -89,10 +82,15 @@ nav {
     margin: 25px 0;
   }
 
-  .poodle {
-    min-width: 50px;
-    max-width: 300px;
-    width: 100%;
+  .introimg {
+    width: 96%;
+    max-height: 1000px;
+    max-width: 1000px;
+  }
+
+  .imageBox {
+    min-width: 300px;
+    width: 20vw;
   }
 }
 
@@ -124,10 +122,15 @@ nav {
     margin: 25px 0;
   }
 
-  .poodle {
-    min-width: 50px;
-    max-width: 300px;
-    width: 100%;
+  .introimg {
+    width: 96%;
+    max-height: 1000px;
+    max-width: 1000px;
+  }
+
+  .imageBox {
+    min-width: 300px;
+    width: 20vw;
   }
 }
 
@@ -199,4 +202,35 @@ nav ul li:hover{
 .hvr-icon-shrink:hover .hvr-icon, .hvr-icon, .hvr-icon-shrink:active .hvr-icon {
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
+}
+
+/* Curl Bottom Right */
+.hvr-curl-bottom-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-curl-bottom-right:before {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+  /* IE9 */
+  background: linear-gradient(315deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+}
+.hvr-curl-bottom-right:hover:before, .hvr-curl-bottom-right:active:before {
+  width: 65px;
+  height: 65px;
 }

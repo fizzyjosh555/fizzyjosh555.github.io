@@ -8,7 +8,7 @@ class About extends Component {
                     <FadeIn transitionDuration="1000">
                     <h1 className="about">About Me</h1>
                     <br></br><br></br>
-                    <h4>First off, thanks for visiting my page! (I'm currently still in the process of making this website more mobile-friendly)</h4>
+                    <h4>First off, thanks for visiting my page!</h4>
                     <br></br><br></br>
                     </FadeIn>
                     <br></br>

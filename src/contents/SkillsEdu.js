@@ -11,7 +11,6 @@ class SkillsEdu extends Component {
                     <div className="edusection">
                         <Widecard title="B.S. Computer Science (Currently Attending)" where="Becker College" from="August 2017" to="December 2021"></Widecard>
                         <Widecard title="High School Diploma" where="Seoul American High School" from="August 2013" to="June 2017"></Widecard>
-                        <br></br>
                     </div>
                 </FadeIn>
                 <FadeIn transitionDuration="900"><h1>Languages</h1></FadeIn><br></br>

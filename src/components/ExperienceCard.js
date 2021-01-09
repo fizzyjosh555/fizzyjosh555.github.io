@@ -4,10 +4,10 @@ class ExpCard extends Component {
     render() {
         return (
             <div class="expcard">
-                <div style={{ lineHeight: '3vh' }} class="compdet">
-                    <h2  style={{ lineHeight: '4.5vh' }} >{this.props.title}</h2>
-                    <h4 style={{ paddingTop: '3px' }} class="secondtext">{this.props.where}</h4>
-                    <h4 style={{ paddingTop: '3px' }} class="secondtext">{this.props.from} - {this.props.to}</h4>
+                <div style={{ lineHeight: '30px' }} class="compdet">
+                    <h2 style={{ lineHeight: '30px' }} >{this.props.where}</h2>
+                    <h3 style={{ paddingTop: '2px' }} class="secondtext"><i>{this.props.role}</i></h3>
+                    <h4 style={{ }} class="secondtext"><i>{this.props.from}</i> - <i>{this.props.to}</i></h4>
                 </div>
             </div>
         )
