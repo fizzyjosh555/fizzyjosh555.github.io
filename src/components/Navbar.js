@@ -27,11 +27,11 @@ class Navbar extends Component {
                     <Social></Social>
                     <img className="profilepic" src={profpic} alt="Avatar"></img>
                     <h2 className="profilename">JOSHUA YUN</h2>
-                    <Navitems item="Introduction" tolink="/" activec={this.activeitem}></Navitems>
-                    <Navitems item="About" tolink="/about" activec={this.activeitem}></Navitems>
-                    <Navitems item="Education & Skills" tolink="/skillsEdu" activec={this.activeitem}></Navitems>
-                    <Navitems item="Experience" tolink="/experience" activec={this.activeitem}></Navitems>
-                    <Navitems item="Projects" tolink="/projects" activec={this.activeitem}></Navitems>
+                    <Navitems item="Introduction" tolink="/" /* activec={this.activeitem} */></Navitems>
+                    <Navitems item="About" tolink="/about" /* activec={this.activeitem} */></Navitems>
+                    <Navitems item="Education & Skills" tolink="/skillsEdu" /* activec={this.activeitem} */></Navitems>
+                    <Navitems item="Experience" tolink="/experience" /* activec={this.activeitem} */></Navitems>
+                    <Navitems item="Projects" tolink="/projects" /* activec={this.activeitem} */></Navitems>
                 </ul>
             </nav>
         )

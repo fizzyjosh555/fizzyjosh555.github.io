@@ -6,7 +6,7 @@
 
 .App {
   display: flex;
-  width: 100vw;
+  width: 95vw;
   min-height: 100vh;
 }
 
@@ -42,12 +42,6 @@
   width: 100%;
 }
 
-/* Introduction elements */
-
-.introText {
-  font-size: 3vw;
-}
-
 /* Navbar properties */
 nav {
   width: 10vw;
@@ -55,12 +49,37 @@ nav {
   background: rgb(238, 232, 232);
 }
 
-.introimg {
-  width: 96%;
-  max-height: 1000px;
-  max-width: 1000px;
+/* Introduction elements */
+.introPage{
+  width: 100vw;
+  padding-left: 5%;
+  padding-right: 2%;
+  padding-top: clamp(65px, 3%, 3%);
 }
 
+.introContainer {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.introimg {
+  display:block;
+  margin:auto;
+  min-width: 450px;
+  width: 50vw;
+}
+
+.introTextContainer {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.introText {
+  font-size: 3vw;
+}
+
+/* Projects Images */
 .imageBox {
   min-width: 300px;
   width: 20vw;
