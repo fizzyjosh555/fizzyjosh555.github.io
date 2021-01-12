@@ -1,6 +1,6 @@
 import './css/App.css';
 import React from 'react';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import Navbar from './components/Navbar.js';
 import Intro from './contents/Intro';
@@ -14,21 +14,14 @@ const App = () => {
     <Router>
       <div className="App">
         <Navbar></Navbar>
-        <Route exact path="/">
-          <Intro></Intro>
-        </Route>
-        <Route path="/about">
-          <About></About>
-        </Route>
-        <Route path="/skillsedu">
-          <SkillsEdu></SkillsEdu>
-        </Route>
-        <Route path="/experience">
-          <Experience></Experience>
-        </Route>
-        <Route path="/projects">
-          <Projects></Projects>
-        </Route>
+        <Switch>
+          <Route exact path="/" component={Intro}></Route>
+          <Route exact path="/about"component={About}></Route>
+          <Route exact path="/skillsedu" component={SkillsEdu}></Route>
+          <Route exact path="/experience" component={Experience}></Route>
+          <Route exact path="/projects" component={Projects}></Route>
+          <Route><Redirect from='*' to='/'/></Route>
+        </Switch>
       </div>
     </Router>
   );

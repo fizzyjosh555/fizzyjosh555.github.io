@@ -36,7 +36,7 @@ class Projects extends Component {
                         thirdPoint="Implemented a finite-state machine (10 different states) for various enemy behaviors"
                     ></ProjectCard>
                     <div style={{ margin: '0 auto' }}>
-                    <FadeIn delay="1700" transitionDuration="900"><a className="hvr-icon-shrink" href="https://github.com/fizzyjosh555" rel="noopener noreferrer" target="_blank"><img style={{ paddingTop: '40px', paddingBottom: '50px', minWidth: '50px', width: '5vw' }} src={moreImg} alt="More"></img></a></FadeIn>
+                    <FadeIn delay="1700" transitionDuration="900"><a href="https://github.com/fizzyjosh555" rel="noopener noreferrer" target="_blank"><img className="pImg" style={{ paddingTop: '40px', paddingBottom: '50px', minWidth: '50px', width: '5vw' }} src={moreImg} alt="More"></img></a></FadeIn>
                     </div>
                 </div>
             </div>
