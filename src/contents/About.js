@@ -9,7 +9,7 @@ class About extends Component {
                     <h1 className="about">About Me</h1>
                     </FadeIn>
                     <br></br>
-                    <FadeIn delay="800" transitionDuration="1200">
+                    <FadeIn delay="500" transitionDuration="900">
                         <div >
                             <h1><strong>I'm a college senior studying computer science.</strong></h1>
                             <h2 style={{ paddingTop: '10px' }}>I'm currently looking for internships involving <u>software and/or full stack development.</u></h2>
