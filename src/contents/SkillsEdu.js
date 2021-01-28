@@ -9,7 +9,7 @@ class SkillsEdu extends Component {
                 <FadeIn transitionDuration="1000"><h1>Education</h1></FadeIn>
                 <FadeIn delay="500" transitionDuration="900">
                     <div className="edusection">
-                        <Widecard title="B.S. Computer Science (Currently Attending)" where="Becker College" from="August 2017" to="December 2021"></Widecard>
+                        <Widecard title="B.S. Applied Computer Science (Currently Attending)" where="Becker College" from="August 2017" to="December 2021"></Widecard>
                         <Widecard title="High School Diploma" where="Seoul American High School" from="August 2013" to="June 2017"></Widecard>
                     </div>
                 </FadeIn>

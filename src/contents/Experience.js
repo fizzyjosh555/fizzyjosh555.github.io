@@ -9,7 +9,7 @@ class Experience extends Component {
                 <FadeIn transitionDuration="1000"><h1>Experience</h1></FadeIn>
                 <FadeIn delay="500" transitionDuration="900">
                     <div>
-                        <ExpCard where="Phillips Brooks House Association" role="Developer Intern" from="August 2018" to="December 2018"></ExpCard>
+                        <ExpCard where="Phillips Brooks House Association" role="Intern" from="August 2018" to="December 2018"></ExpCard>
                         <FadeIn delay="1100" transitionDuration="900">
                         <ul style={{ fontWeight: 'bold', paddingLeft: '16px', lineHeight: '1.7' }}>
                             <li>Implemented data entry functionalities with duplicate constraints using Apex/SOQL</li>

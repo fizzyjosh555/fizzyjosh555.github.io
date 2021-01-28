@@ -11,7 +11,7 @@ class Intro extends Component {
                     <div className="introTextContainer">
                         <FadeIn delay="900" transitionDuration="1200">
                         <div className="introText">
-                            <p>Hi!</p>
+                            <p>Hi,</p>
                         </div>
                         </FadeIn>
                         <FadeIn delay="1600" transitionDuration="1200">
